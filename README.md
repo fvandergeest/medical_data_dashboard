@@ -112,14 +112,12 @@ This Power BI dashboard enables interactive analysis of hospital readmissions am
 ## Example Filters Applied
 - **Readmission status:** Only includes patients who were either **not readmitted** or **readmitted within 30 days**.
 
----
-
 ## Clinical Relevance of Visual Changes
 
 Filtering to focus only on patients **readmitted within 30 days** versus those **not readmitted** highlights the following clinically meaningful changes:
 
 - **Length of stay** becomes more strongly correlated with readmission risk.
-- The dashboard becomes a more targeted tool for identifying patients at **immediate risk** after discharge, which is associated with increased morbidity, mortality and healthcare costs.(1)
+- The dashboard becomes a more targeted tool for identifying patients at immediate risk after discharge, which is associated with increased morbidity, mortality, and healthcare costs.(1)
 - These changes enhance its clinical value for risk stratification, allowing healthcare providers to focus on timely interventions for vulnerable groups.
 
 ![Image](https://github.com/user-attachments/assets/d9ebd586-9315-412d-8b55-f063442048a2)
