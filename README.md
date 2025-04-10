@@ -7,8 +7,7 @@ In this project, I analyzed hospital admissions of diabetes patients using a pub
 
 ## Dashboard Overview
 
-![Image](https://github.com/user-attachments/assets/97a28078-1115-45c1-8682-f9857742e689)
-
+![Image](https://github.com/user-attachments/assets/49513d89-3aeb-4505-9486-dbb6e69a59a1)
 ---
 
 ## Project Goal
@@ -63,28 +62,28 @@ Early readmission of patients with diabetes is clinically significant, as it is 
 - **Avg. hospital stay**: 4.4 days  
 - **Avg. number of medications**: 16 per patient
 
-![Image](https://github.com/user-attachments/assets/e5fc3bbc-9bc5-4740-81e2-de41b9a563c8)
+![Image](https://github.com/user-attachments/assets/4bd4b957-db9e-4a26-8996-f72be9fd763b)
 
-### 2. **Total Readmissions by Age and Gender**
-- **What it shows**: Total number of readmissions split by age group and gender.
+### 2. **Total Readmissions by Age and Time of Readmission**
+- **What it shows**: Total number of readmissions split by age group and readmission (<30, >30 days, or NO readmission).
 - **Clinical relevance**: Older patients are generally more prone to readmissions(2).
-- **Observation**: Highest readmissions in the 60–80 age group; minimal difference between males and females.
+- **Observation**: Highest readmissions in the 60–80 age group.
 
-![Image](https://github.com/user-attachments/assets/dbc2c095-9085-4764-bf67-5fd0b574f9c6)
+![Image](https://github.com/user-attachments/assets/fe2beb7c-ace9-4b38-9d18-b87e0db93ea5)
 
 ### 3. **Readmission Rates by Insulin Use and Readmission Timing**
-- **What it shows**: The timing of readmission rate (<30, >30 days or no readmission) by insulin usage category (No, Steady, Up, Down).
+- **What it shows**: The timing of readmission rate (<30, >30 days, or NO readmission) by insulin usage category (No, Steady, Up, Down).
 - **Clinical relevance**: Insulin management is central to diabetes care. Patterns here may reflect the effectiveness or stability of glycemic control during hospitalization.
 - **Observation**: Patients with ‘Up’ or ‘Down’ insulin adjustments had more readmissions, which may indicate treatment instability.
 
-![Image](https://github.com/user-attachments/assets/0e90e945-2c7b-4478-b83e-4b3fee8316ac)
+![Image](https://github.com/user-attachments/assets/e3cc6a4e-4da9-4686-be0a-3ecd9247c2a7)
 
 ### 4. **Readmission Rate vs. Length of Stay**
-- **What it shows**: Readmission percentage across different hospital stay durations.
+- **What it shows**: Readmission rate across different hospital stay durations in days.
 - **Clinical relevance**: Length of stay can reflect patient severity or premature discharge. This metric helps assess whether certain durations are associated with higher readmission risk.
 - **Observation**: A moderate increase in readmission rate is observed with longer stays, especially beyond 8 days, potentially indicating more complex or unstable cases.
 
-![Image](https://github.com/user-attachments/assets/f4d8c56f-6c5c-4871-9409-61c9b264759f)
+![Image](https://github.com/user-attachments/assets/ac7887dc-3a98-4010-b318-5b83e51ed9fc)
 
 ### 5. **Heatmap: Interaction Between Length of Stay and Insulin changes**
 - **What it shows**: A combined view of how readmission rate varies across both insulin treatment types and hospital stay durations.
@@ -101,6 +100,29 @@ Early readmission of patients with diabetes is clinically significant, as it is 
 - Older patients (60–80) and those with longer hospital stays show a higher readmission risk.  
 - Unstable insulin regimens  and length of stay may contribute to risk profiles.  
 - Combinations of age, insulin type, and hospitalization duration could potentially inform predictive models.
+
+---
+
+## Interactive Dashboard
+
+This Power BI dashboard enables interactive analysis of hospital readmissions among diabetes patients. Users can filter by key variables such as age, gender, and readmission status to uncover patterns and clinically relevant insights.
+
+![Image](https://github.com/user-attachments/assets/a02d4770-2c94-4d09-948c-ed98f014561a)
+
+## Example Filters Applied
+- **Readmission status:** Only includes patients who were either **not readmitted** or **readmitted within 30 days**.
+
+---
+
+## Clinical Relevance of Visual Changes
+
+Filtering to focus only on patients **readmitted within 30 days** versus those **not readmitted** highlights the following clinically meaningful changes:
+
+- **Length of stay** becomes more strongly correlated with readmission risk.
+- The dashboard becomes a more targeted tool for identifying patients at **immediate risk** after discharge, which is associated with increased morbidity, mortality and healthcare costs.(1)
+- These changes enhance its clinical value for risk stratification, allowing healthcare providers to focus on timely interventions for vulnerable groups.
+
+![Image](https://github.com/user-attachments/assets/d9ebd586-9315-412d-8b55-f063442048a2)
 
 ---
 
